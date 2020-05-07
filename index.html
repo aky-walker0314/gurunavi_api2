@@ -27,7 +27,7 @@
 
     //DOMを動的に生成している
     function addCardItem(){
-        for (var i =0, i<data.length; i++ ){
+        for (var i =0; i<data.length; i++ ){
                 let = element = data[i];
                 var node = document.createElement("div");
                 node.innerHTML =`<img src="${element.image}" alt=""><p>${element.description}</p>`;
